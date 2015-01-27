@@ -1,0 +1,4 @@
+true
+C:\Windows\SysWOW64\ForceBindIP.exe
+{XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX}
+League of Legends Client.exe
