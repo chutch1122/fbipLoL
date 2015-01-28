@@ -14,11 +14,11 @@ To solve this problem, this program will intercept the arguments being passed fr
 How do I set it up?
 -------------------
 <ol>
-<li> Rename your "League of Legends.exe" file in your League of Legends folder (RADS\solutions\lol_game_client_sln\releases\<version>\deploy) to something else. I chose "League of Legends Client.exe" </li>
+<li> Rename your "League of Legends.exe" file in your League of Legends folder (RADS\solutions\lol_game_client_sln\releases\{version}\deploy) to something else. I chose "League of Legends Client.exe" </li>
 <li> Compile this program and name it "League of Legends.exe"</li>
-<li> Copy the compiled version of this program to the "RADS\solutions\lol_game_client_sln\releases\<version>\deploy" directory.</li>
+<li> Copy the compiled version of this program to the "RADS\solutions\lol_game_client_sln\releases\{version}\deploy" directory.</li>
 <li> Determine the GUID of the network interface you want League of Legends to run on. Here's how you do that: http://superuser.com/questions/686163/where-can-i-find-my-nic-s-guid-for-use-with-forcebindip </li>
-<li> Create a file called "fbipLoL-settings.txt" and save it in the "RADS\solutions\lol_game_client_sln\releases\<version>\deploy" directory.</li>
+<li> Create a file called "fbipLoL-settings.txt" and save it in the "RADS\solutions\lol_game_client_sln\releases\{version}\deploy" directory.</li>
 <li> In the settings file you created in step 4, the following should be defined (in this order) and each on a separate line. Save the file again after you have your desired settings. An example settings file is provided in the root directory of this repository (fbipLoL-settings-example.txt).</li>
 <ul>
 <li> Use ForceBindIP: true/false - You probably want this to be set as true, but the option is there to disable it.</li>
